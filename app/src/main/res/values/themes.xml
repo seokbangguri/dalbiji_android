@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Wb" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dalbiji</item>
+        <item name="colorPrimaryVariant">@color/dalbiji</item>
+        <item name="colorOnPrimary">@color/dalbiji</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dalbiji</item>
+        <item name="colorSecondaryVariant">@color/dalbiji</item>
+        <item name="colorOnSecondary">@color/dalbiji</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Wb.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Wb.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Wb.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
